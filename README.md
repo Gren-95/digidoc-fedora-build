@@ -1,4 +1,4 @@
-# digidoc-build
+# digidoc-fedora-build
 
 Build the latest upstream [DigiDoc4 Client](https://github.com/open-eid/DigiDoc4-Client) (`qdigidoc4`) and [libdigidocpp](https://github.com/open-eid/libdigidocpp) from source on Fedora-based distros, without touching the system packages.
 
@@ -7,8 +7,8 @@ Distro repositories often lag behind upstream releases. This script resolves the
 ## Usage
 
 ```bash
-git clone https://github.com/Gren-95/digidoc-build.git
-cd digidoc-build
+git clone https://github.com/Gren-95/digidoc-fedora-build.git
+cd digidoc-fedora-build
 ./build-digidoc.sh --deps   # first run: installs build dependencies with sudo dnf
 ./build-digidoc.sh          # later runs: rebuild at the latest upstream release
 ```
